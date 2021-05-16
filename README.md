@@ -7,11 +7,13 @@ varaibles like name,designation, salary,age and methods are create,display,salar
 In these we can read the all the name,age,salary desiganation, and by using the methods we can implement the our project
 Every time execution start from main method and step by step we go through and compile and execute the our promgram successfully
 In these first we have take the all properties like varaibles such as
+
         
    String name;
    String designation;
    double salary;
    int age;
+   
    
 In these Aplication behaviours such as methods are create(),display(),salaryraise()
 In these program we can call methods dynamically that's way we have to write the Scanner class import the scanner class like import java.util.Scanner;
