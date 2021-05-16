@@ -12,6 +12,7 @@ In these first we have take the all properties like varaibles such as
    String designation;
    double salary;
    int age;
+   
 In these Aplication behaviours such as methods are create(),display(),salaryraise()
 In these program we can call methods dynamically that's way we have to write the Scanner class import the scanner class like import java.util.Scanner;
 And next we have to create the Scanner class object like Scanner sc=new Scanner(System.in);
@@ -28,9 +29,12 @@ The methods are like follows such as
            System.out.println("Enter designation:");
            designation=sc.next();
           }
+          
 In these above method we enter the name,age,salary,designation,and call to them dynamically by using Scanner class object
 
 Diplay all those values by using display method like as
+
+
            public void display()
             {
              System.out.println("\nName:"+name);
@@ -38,26 +42,41 @@ Diplay all those values by using display method like as
              System.out.println("salary:"+salary);
              System.out.println("designation:"+designation);
              }
+             
+             
 By using display method we print the values like name, age, salary, designation.
 
 In given program every time we increase our salary that's way we have another method that is 
+
+
           public void salaryraise()
                     {
                       salary=salary+1000;
                       System.out.println("salary raised by 1000");
                      }
+                     
+                     
 By using salaryraised(); we can increase our salary each time
 
 Next we have to create another class that is Emp1
-In these we have to write main method 
+In these we have to write main method
+
 
              public static void main(String args[]);
+
+
 every program execution starts from main method we can execute step by step
  
  Next we have to create the object like 
+ 
+ 
  Emp e=new Emp();
+ 
+ 
  By using object references we call all methods.
  Next we can write the do while loop for iteration purpose
+ 
+ 
           do
            {
            Scanner sc=new Scanner(System.in); 
@@ -67,6 +86,8 @@ every program execution starts from main method we can execute step by step
            System.out.println("4.exit:");
            System.out.println("Enter your choice:");
            k=sc.nextInt();
+           
+           
            switch(k)
            {
             case 1: e.create();
@@ -82,7 +103,9 @@ every program execution starts from main method we can execute step by step
                    break;
             case 4:System.out.print("Exiting..!");
                     break;
-            default: System.out.println("No Action...!"); 
+            default: System.out.println("No Action...!");
+            
+            
 By using do while loop we continue the iterations how many you want it is our choice and by choose choice exit then only we can exit.based on our choice we execute our program 
 step by step complete and executed successful.
  
